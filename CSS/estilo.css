@@ -84,7 +84,101 @@
   text-transform: uppercase;
   font-size: 38px;
   margin: 0;
-  
+}
+
+.container-sobre {
+  max-width: 100%;
+  height: auto;
+}
+
+.sobre, .horarios{
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.sobre-titulo h2, .sobre-horarios h2{
+  color: var(--cor-fonte);
+  font-size: 28px;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.sobre-titulo p, .sobre-horarios p{
+  color: var(--cor-fonte);
+  font-size: 22px;
+  width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.sobre-imagem{
+  display: flex;
+  justify-content: space-around;
+}
+
+.sobre-imagem{
+  padding: 30px;
+}
+
+.lista-titulo{
+  width: 600px;
   
 }
 
+.lista-titulo h3{
+  color: var(--cor-fonte);
+  padding: 30px;
+  text-transform: uppercase;
+  
+}
+
+.lista-titulo ul{
+  padding-left: 80px;
+}
+
+.lista-titulo li{
+  color: var(--cor-fonte);
+  font-weight: 500;
+  padding-bottom: 5px;
+  
+}
+
+.sobre-horarios p{
+  padding: 0 80px 30px;
+}
+
+.horarios-imagens{
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 30px;
+}
+
+.horarios img{
+  width: 300px;
+}
+
+.horarios figure{
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5) ;
+}
+
+.horarios figcaption{
+  font-size: 16px;
+  padding: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  
+}
+
+.horarios-link{
+  text-align: center;
+}
+.horarios-link a {
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  background-color: var(--cor-topo);
+  padding: 10px;
+  text-decoration: none;
+  
+  
+}
