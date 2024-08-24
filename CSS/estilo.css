@@ -7,7 +7,9 @@
 
 :root{
   --cor-fonte: #0000008c;
-  --cor-topo: #19E2FA
+  --cor-topo: #19E2FA;
+  --cor-rodape: #008080;
+  --paragrafos: #fff
 }
 
 .container-topo{
@@ -49,7 +51,7 @@
 }
 
 .links-topo a{
-  color: #fff;
+  color: var(--paragrafos);
   font-size: 20px;
   font-weight: 600;
   text-decoration: none;
@@ -71,7 +73,7 @@
 
 .titulo-banner{
   height: 100%;
-  color: #fff;
+  color: var(--paragrafos);
   padding: 80px;
   display: flex;
   align-items: center;
@@ -86,17 +88,17 @@
   margin: 0;
 }
 
-.container-sobre {
+.container-sobre, .container-contato, .container-rodape {
   max-width: 100%;
   height: auto;
 }
 
-.sobre, .horarios{
+.sobre, .horarios, .contato, .rodape{
   max-width: 1024px;
   margin: 0 auto;
 }
 
-.sobre-titulo h2, .sobre-horarios h2{
+.sobre-titulo h2, .sobre-horarios h2, .contato-titulo{
   color: var(--cor-fonte);
   font-size: 28px;
   padding: 30px 0;
@@ -171,14 +173,51 @@
 
 .horarios-link{
   text-align: center;
+  padding-bottom: 20px;
 }
 .horarios-link a {
-  color: #fff;
+  color: var(--paragrafos);
   font-size: 16px;
   text-transform: uppercase;
   background-color: var(--cor-topo);
   padding: 10px;
   text-decoration: none;
-  
-  
 }
+
+.contato-paragrafo p{
+  width: 800px;
+  text-align: center;
+  color: var(--cor-fonte);
+  font-size: 18px;
+  padding: 20px 30px;
+  margin: 0 auto;
+
+}
+
+.contato-paragrafo span{
+  font-weight: bold;
+}
+
+.contato-mapa iframe{
+  width: 100%;
+  height: 350px;
+  margin-bottom: 40px;
+}
+
+.rodape-logo{
+  text-align: center;
+  background-color: var(--cor-rodape);
+}
+
+.rodape-endereco{
+  background-color: var(--cor-rodape);
+  padding: 30px;
+}
+
+.rodape-endereco p{
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: var(--paragrafos);
+  text-align: center;
+}
+
