@@ -223,27 +223,18 @@
   text-align: center;
 }
 
-/* reponsividade */
+/* reponsividade para celular*/
 
 @media(max-width: 425px){
-  .container-topo{
-    width: 100%;
-    height: auto;
-    
-  }
-
   .topo{
     display: flex;
     flex-direction: column;
-    
-    
   }
 
   .imagem-topo{
     width: 100px;
     height: 50px;
     align-items: center;
-    
   }
 
   .links-topo{
@@ -267,16 +258,10 @@
   }
 
   .titulo-banner{
-    color: var(--paragrafos);
     padding: 20px;
-    display: flex;
-    align-items: center;
-    
   }
 
   .titulo-banner h1 {
-    font-weight: 500;
-    text-transform: uppercase;
     font-size: 20px;
     margin: 0;
   }
@@ -326,9 +311,70 @@
   }
 
   .contato-paragrafo p{
-    font-size: 14px;
+    font-size: 16px;
     width: 340px;
     padding: 10px 0;
   }
+
+  .contato-mapa{
+    padding: 10px;
+  }
+
+}
+
+/* reponsividade para celular*/
+
+@media(max-width: 768px){
+  
+  .topo img{
+    margin-left: 30px;
+  }
+
+  .sobre-titulo p, .sobre-horarios p{
+    width: 100%;
+    font-size: 20px;
+    padding: 30px 20px;
+    
+  }
+
+  .sobre-imagem{
+    padding: 20px 10px;
+  }
+  
+  .lista-titulo{
+    width: 700px;
+  }
+
+  .lista-titulo ul{
+    padding-left: 60px;
+    font-size: 20px;
+  }
+
+  .horarios-imagens{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .horarios-imagens img{
+    padding: 20px 10px;
+    flex-grow: 1;
+    
+  }
+
+  .contato-paragrafo{
+    width: 100%;
+  }
+
+  .contato-paragrafo p{
+    width: 90%;
+  }
+  
+  .contato-mapa{
+    margin: 0 auto;
+    width: 95%;
+  }
+
+  
 
 }
