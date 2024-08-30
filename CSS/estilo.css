@@ -206,19 +206,21 @@
   margin-bottom: 40px;
 }
 
-.rodape-logo{
-  text-align: center;
+.container-rodape{
   background-color: var(--cor-rodape);
 }
 
+.rodape-logo{
+  text-align: center;
+}
+
 .rodape-endereco{
-  background-color: var(--cor-rodape);
-  padding: 30px;
+  padding: 20px;
 }
 
 .rodape-endereco p{
   font-size: 18px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   color: var(--paragrafos);
   text-align: center;
 }
