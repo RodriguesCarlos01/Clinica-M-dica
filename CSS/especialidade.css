@@ -141,28 +141,28 @@
 }
 .especialidade-imagem2{
 	width: 300px;
-	background-image: url("/imagens/pediatra2.png");
+	background-image: url("..//../imagens/pediatra2.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 }
 .especialidade-imagem3{
 	width: 300px;
-	background-image: url("/imagens/geriatra.png");
+	background-image: url("..//../imagens/geriatra.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 }
 .especialidade-imagem4{
 	width: 300px;
-	background-image: url("/imagens/psicologo.png");
+	background-image: url("..//../imagens/psicologo.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 }
 .especialidade-imagem5{
 	width: 300px;
-	background-image: url("/imagens/fisioterapia.png");
+	background-image: url("..//../imagens/fisioterapia.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
