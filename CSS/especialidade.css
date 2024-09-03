@@ -1,0 +1,228 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+:root {
+  --cor-fonte: #0000008c;
+  --cor-topo: #19e2fa;
+  --cor-rodape: #008080;
+  --paragrafos: #fff;
+}
+
+.container-topo {
+  width: 100%;
+  height: auto;
+}
+
+.topo {
+  max-width: 1024px;
+  margin: 0 auto;
+  background-color: var(--cor-topo);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.imagem-topo {
+  width: 150px;
+  height: 80px;
+  align-items: center;
+}
+
+.topo img {
+  width: 100%;
+  height: 100%;
+}
+
+.navegacao-topo {
+  width: 400px;
+  height: auto;
+}
+
+.links-topo {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.links-topo a {
+  color: var(--paragrafos);
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.links-topo a:hover {
+  color: #0000008c;
+  transition: 0.8s;
+}
+
+.container-link {
+  width: 100%;
+  height: auto;
+}
+
+.container-link article{
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
+.container-link nav{
+	padding: 10px;
+	display: flex;
+	justify-content: space-around;
+}
+ 
+.container-link nav a{
+	font-size: 18px;
+	color: black;
+	text-decoration: none;
+	border-bottom: 3px solid var(--cor-topo);
+	
+}
+
+.container-link nav a:hover{
+	color: #0b9c8c;
+	border-bottom: 3px solid var(--cor-fonte);
+	transition: 0.5s;
+	
+}
+
+.container-link h2{
+	font-size: 30px;
+	color: var(--cor-fonte);
+	text-align: center;
+	padding: 20px;
+	
+}
+
+.container-especialidades{
+	max-width: 100%;
+	height: auto;
+}
+
+.especialidade-titulo{
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
+.titulo-paragrafo{
+	text-align: center;
+}
+
+.titulo-paragrafo h3{
+	font-size: 22px;
+	color: var(--cor-fonte);
+	padding: 20px;
+}
+
+.titulo-paragrafo p{
+	width: 60%;
+	font-size: 18px;
+	color: var(--cor-fonte);
+	padding-bottom: 20px;
+	margin: 0 auto;
+
+}
+
+.container-imagem-tabela{
+	display: flex;
+}
+
+.especialidade-imagem{
+	width: 300px;
+	background-image: url("/imagens/ortopedia.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.especialidade-imagem2{
+	width: 300px;
+	background-image: url("/imagens/pediatra2.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.especialidade-imagem3{
+	width: 300px;
+	background-image: url("/imagens/geriatra.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.especialidade-imagem4{
+	width: 300px;
+	background-image: url("/imagens/psicologo.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.especialidade-imagem5{
+	width: 300px;
+	background-image: url("/imagens/fisioterapia.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.especialidade-imagem img{
+	width: 100%;
+	height: 100%;
+}
+
+.especialidade-tabela{
+	width: 70%;
+	
+}
+
+.especialidade-tabela th{
+	color: var(--paragrafos);
+	font-size: 20px;
+	padding: 10px 88px;
+}
+
+.especialidade-tabela td{
+	color: var(--cor-rodape);
+	padding: 20px 30px;
+	font-weight: 500;
+}
+
+.especialidade-tabela thead{
+	background-color: var(--cor-topo);
+
+}
+
+.especialidade-tabela tbody tr:nth-of-type(odd){
+	background-color: rgb(206, 203, 203);
+	font-weight: 700;
+	font-size: 18px;
+	color: var(--sombra-titulo);
+}
+.especialidade-tabela tbody tr:nth-of-type(even){
+	background-color: rgb(240, 233, 233);
+	font-weight: 700;
+	font-size: 18px;
+	color: var(--sombra-titulo);
+}
+
+.container-rodape{
+  background-color: var(--cor-rodape);
+}
+
+.rodape-logo{
+  text-align: center;
+}
+
+.rodape-endereco{
+  padding: 20px;
+}
+
+.rodape-endereco p{
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: var(--paragrafos);
+  text-align: center;
+}
