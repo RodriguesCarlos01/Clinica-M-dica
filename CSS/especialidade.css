@@ -226,3 +226,97 @@
   color: var(--paragrafos);
   text-align: center;
 }
+
+/* responsividade para tela de celular */
+
+@media(max-width: 425px){
+  .topo{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .imagem-topo{
+    width: 100px;
+    height: 50px;
+    align-items: center;
+  }
+
+  .links-topo{
+    margin: 0 auto;
+    width: 350px;
+    border-top: 1px solid rgba(0, 183, 255, 0.747);
+    padding: 5px;
+  }
+
+  .links-topo a{
+    font-size: 16px;
+  }
+
+	.container-link nav{
+		flex-wrap: wrap;
+		gap: 10px;
+	}
+
+	.container-link nav a{
+		font-size: 16px;
+	}
+
+	.container-link h2{
+		font-size: 26px;
+		padding-bottom: 14px;
+	}
+
+	.titulo-paragrafo h3{
+		font-size: 22px;
+	}
+
+	.titulo-paragrafo p{
+		font-size: 16px;
+		width: 350px;
+	}
+
+	.especialidade-imagem {
+		display: none;
+	}
+	.especialidade-imagem2 {
+		display: none;
+	}
+	.especialidade-imagem3 {
+		display: none;
+	}
+	.especialidade-imagem4 {
+		display: none;
+	}
+	.especialidade-imagem5 {
+		display: none;
+	}
+
+	.especialidade-tabela{
+		width: 10%;
+		
+	}
+
+	.especialidade-tabela table{
+		width: 100%;
+	}
+
+	.especialidade-tabela th{
+		color: var(--paragrafos);
+		font-size: 14px;
+		padding: 10px 7px;
+	}
+
+	.especialidade-tabela td{
+		padding: 10px 25px;
+		
+	}
+
+	.rodape-logo{
+		padding-bottom: 0px;
+	}
+
+	.rodape-endereco{
+		padding-top: 0px;
+	}
+
+}	
