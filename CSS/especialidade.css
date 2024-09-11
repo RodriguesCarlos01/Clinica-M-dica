@@ -236,20 +236,21 @@
   }
 
   .imagem-topo{
-    width: 100px;
-    height: 50px;
+    width: 120px;
+    height: 60px;
     align-items: center;
+		margin: 10px;
   }
 
   .links-topo{
     margin: 0 auto;
     width: 350px;
-    border-top: 1px solid rgba(0, 183, 255, 0.747);
-    padding: 5px;
+    border-top: 2px solid rgba(0, 183, 255, 0.747);
+    padding: 20px 0px;
   }
 
   .links-topo a{
-    font-size: 16px;
+    font-size: 18px;
   }
 
 	.container-link nav{
@@ -293,12 +294,11 @@
 
 	.container-imagem-tabela{
 		width: 425px;
+		justify-content: center;
 	}
 
 	.especialidade-tabela{
-		width: 90%;
-		margin: 5px;
-		
+		width: 100%;
 	}
 
 	.especialidade-tabela table{
@@ -325,3 +325,8 @@
 	}
 
 }	
+
+@media(max-width: 768px){
+
+
+}
