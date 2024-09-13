@@ -173,11 +173,6 @@
 	height: 100%;
 }
 
-.especialidade-tabela{
-	width: 70%;
-	
-}
-
 .especialidade-tabela th{
 	color: var(--paragrafos);
 	font-size: 20px;
@@ -242,6 +237,10 @@
 		margin: 10px;
   }
 
+	.navegacao-topo{
+		width: 350px;
+	}
+
   .links-topo{
     margin: 0 auto;
     width: 350px;
@@ -292,13 +291,8 @@
 		display: none;
 	}
 
-	.container-imagem-tabela{
-		width: 425px;
-		justify-content: center;
-	}
-
 	.especialidade-tabela{
-		width: 100%;
+		width: 360px;
 	}
 
 	.especialidade-tabela table{
@@ -308,11 +302,11 @@
 	.especialidade-tabela th{
 		color: var(--paragrafos);
 		font-size: 14px;
-		padding: 10px 7px;
+		padding: 10px 5px;
 	}
 
 	.especialidade-tabela td{
-		padding: 10px 25px;
+		padding: 10px 10px;
 		
 	}
 
