@@ -1,4 +1,4 @@
-# Clínica Médica Life
+# :hospital: Clínica Médica Life
 
 ## Descrição do Projeto
 
@@ -40,7 +40,7 @@ clinica/
 * **favicon.ico:** Ícone utilizado para representar o site nas abas do navegador.
 * **imagens:** Pasta contendo todas as imagens utilizadas no site, como logotipos, fotos da equipe e imagens ilustrativas.
 
-## Tecnologias Utilizadas
+## :computer: Tecnologias Utilizadas
 
 * **HTML:** Linguagem de marcação para estruturar o conteúdo das páginas.
 * **CSS:** Linguagem de estilo para definir a aparência visual das páginas.
@@ -106,6 +106,24 @@ Este documento detalha as estratégias de design responsivo utilizadas no site d
   /* Estilos para desktops */
 }
 ```
+
+### Imagens do Projeto
+<figure>
+ <figcaption>Desktop</figcaption>
+ <img src="/imagens/desktop.png" width="400" height="200"   alt="Desktop" /> 
+</figure>
+
+<figure>
+ <figcaption>Tablet</figcaption>
+ <img src="/imagens/tablet.png" width="300" height="300"  alt="tablet" />
+</figure>
+
+<figure>
+ <figcaption>Celular</figcaption>
+ <img src="/imagens/celular.png" width="300" height="500"  alt="celular" />
+</figure>
+
+
 ## Contribuições
 
 Contribuições são bem-vindas! Se você encontrar algum problema ou tiver sugestões de melhoria, por favor, abra um issue.
