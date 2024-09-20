@@ -15,6 +15,7 @@
 .container-topo {
   width: 100%;
   height: auto;
+	background-color: var(--cor-topo);
 }
 
 .topo {
@@ -311,7 +312,7 @@
 	}
 
 	.container-imagem-tabela{
-		width: 768px;
+		width: 100%;
 	}
   .especialidade-tabela{
 		width: 100%;
